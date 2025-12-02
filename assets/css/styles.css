@@ -278,3 +278,38 @@ img{
     justify-items: center;
     align-items: center;
 }
+
+/*=============  specs =============== */
+.specs__container{
+    position: relative;
+    row-gap: 1.5rem;
+}
+.specs__content{
+}
+.specs__data{
+    display: grid;
+    row-gap: .25rem;
+}
+
+.specs__icon{
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+.specs__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.specs__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+.specs__content:nth-child(1),
+.specs__content:nth-child(4){
+    margin-left: var(--mb-1-5);
+}
+.specs__img{
+    width: 250px;
+    position: absolute;
+    top: 2rem;
+    right: -4rem;
+}
