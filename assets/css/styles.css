@@ -2,41 +2,20 @@
 
 :root {
     --header-height: 3rem;
-
-    /* ======== DARK THEME COLORS ======== */
-    --hue-color: 220;
-    /* cool blue tone */
-
-    --black-color: hsl(var(--hue-color), 10%, 6%);
-    /* deep charcoal */
-    --black-color-alt: hsl(var(--hue-color), 10%, 10%);
-    /* slightly lighter charcoal */
-
-    --title-color: hsl(var(--hue-color), 15%, 96%);
-    /* bright text */
-    --text-color: hsl(var(--hue-color), 10%, 72%);
-    /* muted text */
-    --text-color-light: hsl(var(--hue-color), 10%, 60%);
-    /* lighter muted text */
-
-    --white-color: #ffffff;
-
-    /* Page background (rich dark) */
-    --body-color: hsl(var(--hue-color), 12%, 4%);
-
-    /* Card / container background */
-    --container-color: hsl(var(--hue-color), 12%, 8%);
-
-    /* Modern blue gradient for titles */
-    --text-gradient: linear-gradient(135deg,
-            hsl(220, 90%, 65%),
-            hsl(220, 60%, 45%));
-
-    /* Scrollbar */
-    --scroll-thumb-color: hsl(var(--hue-color), 15%, 18%);
-    --scroll-thumb-color-alt: hsl(var(--hue-color), 15%, 25%);
-
-    /* Font sizes */
+    
+    --hue-color: 206;
+    --black-color: hsl(var(--hue-color), 4%, 4%);
+    --black-color-alt: hsl(var(--hue-color), 4%, 8%);
+    --title-color: hsl(var(--hue-color), 4%, 95%);
+    --text-color: hsl(var(--hue-color), 4%, 75%);
+    --text-color-light: hsl(var(--hue-color), 4%, 65%);
+    --white-color: #FFF;
+    --body-color: hsl(var(--hue-color), 4%, 6%);
+    --container-color: hsl(var(--hue-color), 4%, 10%);
+    --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+    --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
+    --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
+    
     --body-font: 'Poppins', sans-serif;
     --biggest-font-size: 5rem;
     --bigger-font-size: 3.5rem;
@@ -46,14 +25,11 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
-
     --text-line-height: 2rem;
-
-    /* Weights */
+    
     --font-medium: 500;
     --font-semi-bold: 600;
-
-    /* Spacing */
+    
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
     --mb-1: 1rem;
